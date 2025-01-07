@@ -1,59 +1,37 @@
 {
-  "updateTime": 167,
+  "updateTime": 60,
   "categories": {
     "spam": {
       "keywords": [
         {"word": "bedava", "single": false, "startswith": false, "endswith": false, "include": true},
         {"word": "kazandınız", "single": false, "startswith": false, "endswith": false, "include": true},
         {"word": "ücretsiz", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "ödül", "single": false, "startswith": false, "endswith": false, "include": true}
+        {"word": "ödül", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "tebrikler", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "hediye", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "casino", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "bet", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "bahis", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "kredi", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "kazan", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "bonus", "single": false, "startswith": false, "endswith": true, "include": false}
       ]
     },
-    "promotional": {
+    "marketing": {
       "keywords": [
         {"word": "indirim", "single": false, "startswith": false, "endswith": false, "include": true},
         {"word": "fırsat", "single": false, "startswith": false, "endswith": false, "include": true},
         {"word": "kampanya", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "son şans", "single": false, "startswith": true, "endswith": false, "include": true}
+        {"word": "son gün", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "%", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "özel fiyat", "single": false, "startswith": false, "endswith": false, "include": true}
       ]
     },
-    "offers": {
+    "notification": {
       "keywords": [
-        {"word": "son gün", "single": false, "startswith": true, "endswith": false, "include": true},
-        {"word": "%50 indirim", "single": false, "startswith": false, "endswith": true, "include": true},
-        {"word": "bugüne özel", "single": false, "startswith": true, "endswith": false, "include": true}
-      ]
-    },
-    "finance": {
-      "keywords": [
-        {"word": "hesap", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "ödeme", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "borç", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "bankacılık", "single": false, "startswith": false, "endswith": false, "include": true}
-      ]
-    },
-    "official": {
-      "keywords": [
-        {"word": "duyuru", "single": true, "startswith": false, "endswith": false, "include": true},
-        {"word": "vergi", "single": false, "startswith": false, "endswith": true, "include": true},
-        {"word": "resmi", "single": false, "startswith": true, "endswith": false, "include": true},
-        {"word": "ilan", "single": false, "startswith": false, "endswith": false, "include": true}
-      ]
-    },
-    "social": {
-      "keywords": [
-        {"word": "katılım", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "etkinlik", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "toplantı", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "davetiye", "single": false, "startswith": true, "endswith": false, "include": true}
-      ]
-    },
-    "personal": {
-      "keywords": [
-        {"word": "merhaba", "single": true, "startswith": false, "endswith": false, "include": true},
-        {"word": "teşekkürler", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "nasılsın", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "iyi günler", "single": false, "startswith": true, "endswith": false, "include": true}
+        {"word": "bilgilendirme", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "duyuru", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "hatırlatma", "single": false, "startswith": true, "endswith": false, "include": false}
       ]
     }
   }
