@@ -1,6 +1,33 @@
 {
   "updateTime": 45,
   "spamKeywords": [
-    "esenyurt"
+    {
+      "word": "bet",
+      "single": true,
+      "startswith": false,
+      "endswith": false,
+      "include": false
+    },
+    {
+      "word": "kazan",
+      "single": false,
+      "startswith": true,
+      "endswith": false,
+      "include": false
+    },
+    {
+      "word": "bonus",
+      "single": false,
+      "startswith": false,
+      "endswith": true,
+      "include": false
+    },
+    {
+      "word": "casino",
+      "single": false,
+      "startswith": false,
+      "endswith": false,
+      "include": true
+    }
   ]
 }
