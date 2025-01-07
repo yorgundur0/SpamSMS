@@ -1,33 +1,47 @@
 {
   "updateTime": 45,
-  "spamKeywords": [
-    {
-      "word": "bet",
-      "single": true,
-      "startswith": false,
-      "endswith": false,
-      "include": false
+  "categories": {
+    "spam": {
+      "keywords": [
+        {"word": "bedava", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "kazandınız", "single": false, "startswith": false, "endswith": false, "include": true}
+      ]
     },
-    {
-      "word": "kazan",
-      "single": false,
-      "startswith": true,
-      "endswith": false,
-      "include": false
+    "promotional": {
+      "keywords": [
+        {"word": "indirim", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "fırsat", "single": false, "startswith": false, "endswith": false, "include": true}
+      ]
     },
-    {
-      "word": "bonus",
-      "single": false,
-      "startswith": false,
-      "endswith": true,
-      "include": false
+    "offers": {
+      "keywords": [
+        {"word": "son gün", "single": false, "startswith": true, "endswith": false, "include": false},
+        {"word": "%50 indirim", "single": false, "startswith": false, "endswith": true, "include": false}
+      ]
     },
-    {
-      "word": "casino",
-      "single": false,
-      "startswith": false,
-      "endswith": false,
-      "include": true
+    "finance": {
+      "keywords": [
+        {"word": "hesap", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "ödeme", "single": false, "startswith": false, "endswith": false, "include": true}
+      ]
+    },
+    "official": {
+      "keywords": [
+        {"word": "duyuru", "single": true, "startswith": false, "endswith": false, "include": false},
+        {"word": "vergi", "single": false, "startswith": false, "endswith": true, "include": false}
+      ]
+    },
+    "social": {
+      "keywords": [
+        {"word": "katılım", "single": false, "startswith": false, "endswith": false, "include": true},
+        {"word": "etkinlik", "single": false, "startswith": false, "endswith": false, "include": true}
+      ]
+    },
+    "personal": {
+      "keywords": [
+        {"word": "merhaba", "single": true, "startswith": false, "endswith": false, "include": false},
+        {"word": "teşekkürler", "single": false, "startswith": false, "endswith": false, "include": true}
+      ]
     }
-  ]
+  }
 }
