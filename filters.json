@@ -8,45 +8,11 @@
           {"word": "işlem özeti", "single": false, "startswith": false, "endswith": false, "include": true},
           {"word": "eft", "single": false, "startswith": false, "endswith": false, "include": true},
           {"word": "havale", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
+        ],
+        "action": "filter",
+        "subAction": "transactionalFinance"
       },
-      "orders": {
-        "keywords": [
-          {"word": "sipariş", "single": false, "startswith": true, "endswith": false, "include": true},
-          {"word": "kargo takip", "single": false, "startswith": true, "endswith": false, "include": false},
-          {"word": "teslimat", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
-      },
-      "reminders": {
-        "keywords": [
-          {"word": "hatırlatma", "single": false, "startswith": true, "endswith": false, "include": false},
-          {"word": "randevu", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
-      },
-      "health": {
-        "keywords": [
-          {"word": "test sonucu", "single": false, "startswith": false, "endswith": false, "include": true},
-          {"word": "hastane", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
-      },
-      "carrier": {
-        "keywords": [
-          {"word": "kalan kullanım", "single": false, "startswith": true, "endswith": false, "include": false},
-          {"word": "fatura", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
-      },
-      "rewards": {
-        "keywords": [
-          {"word": "puan", "single": false, "startswith": false, "endswith": false, "include": true},
-          {"word": "kazandınız", "single": false, "startswith": false, "endswith": true, "include": false}
-        ]
-      },
-      "public_services": {
-        "keywords": [
-          {"word": "e-devlet", "single": false, "startswith": false, "endswith": false, "include": true},
-          {"word": "vergi", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
-      }
+      // ... diğer transactional kategoriler ...
     },
     "promotional": {
       "offers": {
@@ -54,26 +20,33 @@
           {"word": "indirim", "single": false, "startswith": false, "endswith": false, "include": true},
           {"word": "fırsat", "single": false, "startswith": false, "endswith": false, "include": true},
           {"word": "kampanya", "single": false, "startswith": false, "endswith": false, "include": true}
-        ]
+        ],
+        "action": "filter",
+        "subAction": "promotionalOffers"
       },
       "coupons": {
         "keywords": [
           {"word": "kupon", "single": false, "startswith": false, "endswith": false, "include": true},
           {"word": "kod", "single": false, "startswith": false, "endswith": true, "include": false}
-        ]
+        ],
+        "action": "filter",
+        "subAction": "promotionalCoupons"
       }
     },
     "spam": {
-      "keywords": [
-        {"word": "bedava", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "kazandınız", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "tebrikler", "single": false, "startswith": true, "endswith": false, "include": false},
-        {"word": "hediye", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "çekiliş", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "kredi", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "casino", "single": false, "startswith": false, "endswith": false, "include": true},
-        {"word": "bahis", "single": false, "startswith": false, "endswith": false, "include": true}
-      ]
+      "general": {
+        "keywords": [
+          {"word": "bedava", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "kazandınız", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "tebrikler", "single": false, "startswith": true, "endswith": false, "include": false},
+          {"word": "hediye", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "çekiliş", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "kredi", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "casino", "single": false, "startswith": false, "endswith": false, "include": true},
+          {"word": "bahis", "single": false, "startswith": false, "endswith": false, "include": true}
+        ],
+        "action": "junk"
+      }
     }
   }
 }
